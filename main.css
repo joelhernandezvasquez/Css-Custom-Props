@@ -1,0 +1,46 @@
+
+
+body{
+    
+    min-height: 100vh;
+    background:lavender;
+    display: grid;
+    place-content: center;
+}
+
+.wrapper{
+   background:white;
+   width:700px;
+   height:200px;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+button{
+    margin:0 16px;
+    border:none;
+    padding:12px 24px;
+    cursor:pointer;
+    background-color: white;
+    color:var(--btn-clr,black);
+    outline:1px solid var(--btn-clr,black);
+}
+
+
+.btn-teal{
+  --btn-clr:teal;
+}
+
+.btn-purple{
+   --btn-clr:purple;
+}
+
+.btn-gold{
+    --btn-clr:gold;
+}
+
+
+button:hover{
+    color:white;
+    background:var(--btn-clr);
+}
